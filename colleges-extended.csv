@@ -1,0 +1,595 @@
+name,state,city,coordinatorName,phone,email
+Indian Institute of Technology Tirupati,Andhra Pradesh,Tirupati,,9000000001,coordinator001@example.com
+Indian Institute of Information Technology Sri City,Andhra Pradesh,Sri City,,9000000002,coordinator002@example.com
+Andhra University,Andhra Pradesh,Visakhapatnam,,9000000003,coordinator003@example.com
+VIT-AP University,Andhra Pradesh,Amaravati,,9000000004,coordinator004@example.com
+SRM University-AP,Andhra Pradesh,Amaravati,,9000000005,coordinator005@example.com
+GITAM Deemed to be University,Andhra Pradesh,Visakhapatnam,,9000000006,coordinator006@example.com
+Jawaharlal Nehru Technological University Kakinada,Andhra Pradesh,Kakinada,,9000000007,coordinator007@example.com
+National Institute of Technology Andhra Pradesh,Andhra Pradesh,Tadepalligudem,,9000000008,coordinator008@example.com
+Indian Institute of Technology Hyderabad,Telangana,Hyderabad,,9000000009,coordinator009@example.com
+International Institute of Information Technology Hyderabad,Telangana,Hyderabad,,9000000010,coordinator010@example.com
+University of Hyderabad,Telangana,Hyderabad,,9000000011,coordinator011@example.com
+Osmania University,Telangana,Hyderabad,,9000000012,coordinator012@example.com
+BITS Pilani Hyderabad Campus,Telangana,Hyderabad,,9000000013,coordinator013@example.com
+National Institute of Technology Warangal,Telangana,Warangal,,9000000014,coordinator014@example.com
+Chaitanya Bharathi Institute of Technology,Telangana,Hyderabad,,9000000015,coordinator015@example.com
+Vasavi College of Engineering,Telangana,Hyderabad,,9000000016,coordinator016@example.com
+CVR College of Engineering,Telangana,Hyderabad,,9000000017,coordinator017@example.com
+Jawaharlal Nehru Technological University Hyderabad,Telangana,Hyderabad,,9000000018,coordinator018@example.com
+Indian Institute of Science,Karnataka,Bengaluru,,9000000019,coordinator019@example.com
+International Institute of Information Technology Bangalore,Karnataka,Bengaluru,,9000000020,coordinator020@example.com
+National Institute of Technology Karnataka,Karnataka,Mangaluru,,9000000021,coordinator021@example.com
+RV College of Engineering,Karnataka,Bengaluru,,9000000022,coordinator022@example.com
+BMS College of Engineering,Karnataka,Bengaluru,,9000000023,coordinator023@example.com
+PES University,Karnataka,Bengaluru,,9000000024,coordinator024@example.com
+M S Ramaiah Institute of Technology,Karnataka,Bengaluru,,9000000025,coordinator025@example.com
+Manipal Institute of Technology,Karnataka,Manipal,,9000000026,coordinator026@example.com
+Indian Institute of Technology Dharwad,Karnataka,Dharwad,,9000000027,coordinator027@example.com
+Bangalore Institute of Technology,Karnataka,Bengaluru,,9000000028,coordinator028@example.com
+KLE Technological University,Karnataka,Hubballi,,9000000029,coordinator029@example.com
+NMAM Institute of Technology,Karnataka,Nitte,,9000000030,coordinator030@example.com
+Siddaganga Institute of Technology,Karnataka,Tumakuru,,9000000031,coordinator031@example.com
+JSS Science and Technology University,Karnataka,Mysuru,,9000000032,coordinator032@example.com
+SDM College of Engineering and Technology,Karnataka,Dharwad,,9000000033,coordinator033@example.com
+Dayananda Sagar College of Engineering,Karnataka,Bengaluru,,9000000034,coordinator034@example.com
+Indian Institute of Technology Madras,Tamil Nadu,Chennai,,9000000035,coordinator035@example.com
+National Institute of Technology Tiruchirappalli,Tamil Nadu,Tiruchirappalli,,9000000036,coordinator036@example.com
+Anna University,Tamil Nadu,Chennai,,9000000037,coordinator037@example.com
+PSG College of Technology,Tamil Nadu,Coimbatore,,9000000038,coordinator038@example.com
+Thiagarajar College of Engineering,Tamil Nadu,Madurai,,9000000039,coordinator039@example.com
+SSN College of Engineering,Tamil Nadu,Chennai,,9000000040,coordinator040@example.com
+Vellore Institute of Technology,Tamil Nadu,Vellore,,9000000041,coordinator041@example.com
+SRM Institute of Science and Technology,Tamil Nadu,Kattankulathur,,9000000042,coordinator042@example.com
+Amrita Vishwa Vidyapeetham,Tamil Nadu,Coimbatore,,9000000043,coordinator043@example.com
+Coimbatore Institute of Technology,Tamil Nadu,Coimbatore,,9000000044,coordinator044@example.com
+SASTRA Deemed University,Tamil Nadu,Thanjavur,,9000000045,coordinator045@example.com
+IIITDM Kancheepuram,Tamil Nadu,Chennai,,9000000046,coordinator046@example.com
+Kumaraguru College of Technology,Tamil Nadu,Coimbatore,,9000000047,coordinator047@example.com
+Indian Institute of Technology Palakkad,Kerala,Palakkad,,9000000048,coordinator048@example.com
+National Institute of Technology Calicut,Kerala,Kozhikode,,9000000049,coordinator049@example.com
+College of Engineering Trivandrum,Kerala,Thiruvananthapuram,,9000000050,coordinator050@example.com
+Cochin University of Science and Technology,Kerala,Kochi,,9000000051,coordinator051@example.com
+Government Engineering College Thrissur,Kerala,Thrissur,,9000000052,coordinator052@example.com
+Indian Institute of Information Technology Kottayam,Kerala,Kottayam,,9000000053,coordinator053@example.com
+Rajagiri School of Engineering and Technology,Kerala,Kochi,,9000000054,coordinator054@example.com
+TKM College of Engineering,Kerala,Kollam,,9000000055,coordinator055@example.com
+Veermata Jijabai Technological Institute,Maharashtra,Mumbai,,9000000056,coordinator056@example.com
+COEP Technological University,Maharashtra,Pune,,9000000057,coordinator057@example.com
+Visvesvaraya National Institute of Technology,Maharashtra,Nagpur,,9000000058,coordinator058@example.com
+Institute of Chemical Technology,Maharashtra,Mumbai,,9000000059,coordinator059@example.com
+Sardar Patel Institute of Technology,Maharashtra,Mumbai,,9000000060,coordinator060@example.com
+Walchand College of Engineering,Maharashtra,Sangli,,9000000061,coordinator061@example.com
+Pune Institute of Computer Technology,Maharashtra,Pune,,9000000062,coordinator062@example.com
+MIT World Peace University,Maharashtra,Pune,,9000000063,coordinator063@example.com
+Symbiosis Institute of Technology,Maharashtra,Pune,,9000000064,coordinator064@example.com
+Indian Institute of Information Technology Nagpur,Maharashtra,Nagpur,,9000000065,coordinator065@example.com
+Dwarkadas J Sanghvi College of Engineering,Maharashtra,Mumbai,,9000000066,coordinator066@example.com
+K J Somaiya College of Engineering,Maharashtra,Mumbai,,9000000067,coordinator067@example.com
+Vishwakarma Institute of Technology,Maharashtra,Pune,,9000000068,coordinator068@example.com
+Indian Institute of Technology Delhi,Delhi,New Delhi,,9000000069,coordinator069@example.com
+Delhi Technological University,Delhi,New Delhi,,9000000070,coordinator070@example.com
+Netaji Subhas University of Technology,Delhi,New Delhi,,9000000071,coordinator071@example.com
+Indraprastha Institute of Information Technology Delhi,Delhi,New Delhi,,9000000072,coordinator072@example.com
+Jamia Millia Islamia,Delhi,New Delhi,,9000000073,coordinator073@example.com
+Indira Gandhi Delhi Technical University for Women,Delhi,New Delhi,,9000000074,coordinator074@example.com
+Jawaharlal Nehru University,Delhi,New Delhi,,9000000075,coordinator075@example.com
+Maharaja Agrasen Institute of Technology,Delhi,New Delhi,,9000000076,coordinator076@example.com
+Indian Institute of Technology Kanpur,Uttar Pradesh,Kanpur,,9000000077,coordinator077@example.com
+Indian Institute of Technology (BHU) Varanasi,Uttar Pradesh,Varanasi,,9000000078,coordinator078@example.com
+Motilal Nehru National Institute of Technology Allahabad,Uttar Pradesh,Prayagraj,,9000000079,coordinator079@example.com
+Indian Institute of Information Technology Allahabad,Uttar Pradesh,Prayagraj,,9000000080,coordinator080@example.com
+Aligarh Muslim University,Uttar Pradesh,Aligarh,,9000000081,coordinator081@example.com
+KIET Group of Institutions,Uttar Pradesh,Ghaziabad,,9000000082,coordinator082@example.com
+Jaypee Institute of Information Technology,Uttar Pradesh,Noida,,9000000083,coordinator083@example.com
+Ajay Kumar Garg Engineering College,Uttar Pradesh,Ghaziabad,,9000000084,coordinator084@example.com
+Institute of Engineering and Technology Lucknow,Uttar Pradesh,Lucknow,,9000000085,coordinator085@example.com
+Harcourt Butler Technical University,Uttar Pradesh,Kanpur,,9000000086,coordinator086@example.com
+Galgotias University,Uttar Pradesh,Greater Noida,,9000000087,coordinator087@example.com
+Amity University,Uttar Pradesh,Noida,,9000000088,coordinator088@example.com
+Shiv Nadar University,Uttar Pradesh,Greater Noida,,9000000089,coordinator089@example.com
+Bennett University,Uttar Pradesh,Greater Noida,,9000000090,coordinator090@example.com
+National Institute of Technology Kurukshetra,Haryana,Kurukshetra,,9000000091,coordinator091@example.com
+Indian Institute of Information Technology Sonepat,Haryana,Sonipat,,9000000092,coordinator092@example.com
+Maharshi Dayanand University,Haryana,Rohtak,,9000000093,coordinator093@example.com
+Deenbandhu Chhotu Ram University of Science and Technology,Haryana,Murthal,,9000000094,coordinator094@example.com
+Ashoka University,Haryana,Sonipat,,9000000095,coordinator095@example.com
+Indian Institute of Technology Ropar,Punjab,Rupnagar,,9000000096,coordinator096@example.com
+Thapar Institute of Engineering and Technology,Punjab,Patiala,,9000000097,coordinator097@example.com
+Dr B R Ambedkar National Institute of Technology Jalandhar,Punjab,Jalandhar,,9000000098,coordinator098@example.com
+Lovely Professional University,Punjab,Phagwara,,9000000099,coordinator099@example.com
+Chitkara University,Punjab,Rajpura,,9000000100,coordinator100@example.com
+Guru Nanak Dev Engineering College,Punjab,Ludhiana,,9000000101,coordinator101@example.com
+Chandigarh University,Punjab,Mohali,,9000000102,coordinator102@example.com
+Punjab Engineering College,Chandigarh,Chandigarh,,9000000103,coordinator103@example.com
+Panjab University,Chandigarh,Chandigarh,,9000000104,coordinator104@example.com
+Indian Institute of Technology Jodhpur,Rajasthan,Jodhpur,,9000000105,coordinator105@example.com
+Birla Institute of Technology and Science Pilani,Rajasthan,Pilani,,9000000106,coordinator106@example.com
+Malaviya National Institute of Technology Jaipur,Rajasthan,Jaipur,,9000000107,coordinator107@example.com
+Indian Institute of Information Technology Kota,Rajasthan,Kota,,9000000108,coordinator108@example.com
+Manipal University Jaipur,Rajasthan,Jaipur,,9000000109,coordinator109@example.com
+LNM Institute of Information Technology,Rajasthan,Jaipur,,9000000110,coordinator110@example.com
+Rajasthan Technical University,Rajasthan,Kota,,9000000111,coordinator111@example.com
+Indian Institute of Technology Gandhinagar,Gujarat,Gandhinagar,,9000000112,coordinator112@example.com
+Sardar Vallabhbhai National Institute of Technology,Gujarat,Surat,,9000000113,coordinator113@example.com
+Dhirubhai Ambani Institute of Information and Communication Technology,Gujarat,Gandhinagar,,9000000114,coordinator114@example.com
+Nirma University,Gujarat,Ahmedabad,,9000000115,coordinator115@example.com
+Pandit Deendayal Energy University,Gujarat,Gandhinagar,,9000000116,coordinator116@example.com
+L D College of Engineering,Gujarat,Ahmedabad,,9000000117,coordinator117@example.com
+Gujarat Technological University,Gujarat,Ahmedabad,,9000000118,coordinator118@example.com
+Maharaja Sayajirao University of Baroda,Gujarat,Vadodara,,9000000119,coordinator119@example.com
+Indian Institute of Technology Indore,Madhya Pradesh,Indore,,9000000120,coordinator120@example.com
+Maulana Azad National Institute of Technology,Madhya Pradesh,Bhopal,,9000000121,coordinator121@example.com
+Indian Institute of Information Technology Design and Manufacturing Jabalpur,Madhya Pradesh,Jabalpur,,9000000122,coordinator122@example.com
+Shri G S Institute of Technology and Science,Madhya Pradesh,Indore,,9000000123,coordinator123@example.com
+Medi-Caps University,Madhya Pradesh,Indore,,9000000124,coordinator124@example.com
+VIT Bhopal University,Madhya Pradesh,Sehore,,9000000125,coordinator125@example.com
+ABV Indian Institute of Information Technology and Management,Madhya Pradesh,Gwalior,,9000000126,coordinator126@example.com
+Jabalpur Engineering College,Madhya Pradesh,Jabalpur,,9000000127,coordinator127@example.com
+National Institute of Technology Raipur,Chhattisgarh,Raipur,,9000000128,coordinator128@example.com
+International Institute of Information Technology Naya Raipur,Chhattisgarh,Naya Raipur,,9000000129,coordinator129@example.com
+Indian Institute of Technology Bhilai,Chhattisgarh,Bhilai,,9000000130,coordinator130@example.com
+Bhilai Institute of Technology,Chhattisgarh,Durg,,9000000131,coordinator131@example.com
+Indian Institute of Technology Bhubaneswar,Odisha,Bhubaneswar,,9000000132,coordinator132@example.com
+National Institute of Technology Rourkela,Odisha,Rourkela,,9000000133,coordinator133@example.com
+Kalinga Institute of Industrial Technology,Odisha,Bhubaneswar,,9000000134,coordinator134@example.com
+Siksha O Anusandhan University,Odisha,Bhubaneswar,,9000000135,coordinator135@example.com
+International Institute of Information Technology Bhubaneswar,Odisha,Bhubaneswar,,9000000136,coordinator136@example.com
+Veer Surendra Sai University of Technology,Odisha,Burla,,9000000137,coordinator137@example.com
+Indian Institute of Technology Kharagpur,West Bengal,Kharagpur,,9000000138,coordinator138@example.com
+Jadavpur University,West Bengal,Kolkata,,9000000139,coordinator139@example.com
+Indian Institute of Engineering Science and Technology,West Bengal,Howrah,,9000000140,coordinator140@example.com
+National Institute of Technology Durgapur,West Bengal,Durgapur,,9000000141,coordinator141@example.com
+Indian Institute of Information Technology Kalyani,West Bengal,Kalyani,,9000000142,coordinator142@example.com
+Heritage Institute of Technology,West Bengal,Kolkata,,9000000143,coordinator143@example.com
+Institute of Engineering and Management,West Bengal,Kolkata,,9000000144,coordinator144@example.com
+Presidency University,West Bengal,Kolkata,,9000000145,coordinator145@example.com
+National Institute of Technology Patna,Bihar,Patna,,9000000146,coordinator146@example.com
+Indian Institute of Technology Patna,Bihar,Patna,,9000000147,coordinator147@example.com
+Indian Institute of Information Technology Bhagalpur,Bihar,Bhagalpur,,9000000148,coordinator148@example.com
+Indian Institute of Technology (ISM) Dhanbad,Jharkhand,Dhanbad,,9000000149,coordinator149@example.com
+National Institute of Technology Jamshedpur,Jharkhand,Jamshedpur,,9000000150,coordinator150@example.com
+Birla Institute of Technology Mesra,Jharkhand,Ranchi,,9000000151,coordinator151@example.com
+Birla Institute of Technology Sindri,Jharkhand,Dhanbad,,9000000152,coordinator152@example.com
+Indian Institute of Technology Guwahati,Assam,Guwahati,,9000000153,coordinator153@example.com
+National Institute of Technology Silchar,Assam,Silchar,,9000000154,coordinator154@example.com
+Tezpur University,Assam,Tezpur,,9000000155,coordinator155@example.com
+Assam Engineering College,Assam,Guwahati,,9000000156,coordinator156@example.com
+Jorhat Engineering College,Assam,Jorhat,,9000000157,coordinator157@example.com
+Dibrugarh University,Assam,Dibrugarh,,9000000158,coordinator158@example.com
+Gauhati University,Assam,Guwahati,,9000000159,coordinator159@example.com
+National Institute of Technology Meghalaya,Meghalaya,Shillong,,9000000160,coordinator160@example.com
+North Eastern Hill University,Meghalaya,Shillong,,9000000161,coordinator161@example.com
+National Institute of Technology Nagaland,Nagaland,Dimapur,,9000000162,coordinator162@example.com
+National Institute of Technology Manipur,Manipur,Imphal,,9000000163,coordinator163@example.com
+Indian Institute of Information Technology Senapati Manipur,Manipur,Senapati,,9000000164,coordinator164@example.com
+National Institute of Technology Mizoram,Mizoram,Aizawl,,9000000165,coordinator165@example.com
+Mizoram University,Mizoram,Aizawl,,9000000166,coordinator166@example.com
+National Institute of Technology Arunachal Pradesh,Arunachal Pradesh,Yupia,,9000000167,coordinator167@example.com
+North Eastern Regional Institute of Science and Technology,Arunachal Pradesh,Nirjuli,,9000000168,coordinator168@example.com
+National Institute of Technology Agartala,Tripura,Agartala,,9000000169,coordinator169@example.com
+Tripura University,Tripura,Agartala,,9000000170,coordinator170@example.com
+Sikkim Manipal Institute of Technology,Sikkim,Majitar,,9000000171,coordinator171@example.com
+Indian Institute of Technology Roorkee,Uttarakhand,Roorkee,,9000000172,coordinator172@example.com
+G B Pant Institute of Engineering and Technology,Uttarakhand,Pauri,,9000000173,coordinator173@example.com
+National Institute of Technology Uttarakhand,Uttarakhand,Srinagar Garhwal,,9000000174,coordinator174@example.com
+Graphic Era University,Uttarakhand,Dehradun,,9000000175,coordinator175@example.com
+University of Petroleum and Energy Studies,Uttarakhand,Dehradun,,9000000176,coordinator176@example.com
+National Institute of Technology Hamirpur,Himachal Pradesh,Hamirpur,,9000000177,coordinator177@example.com
+Indian Institute of Technology Mandi,Himachal Pradesh,Mandi,,9000000178,coordinator178@example.com
+Indian Institute of Information Technology Una,Himachal Pradesh,Una,,9000000179,coordinator179@example.com
+Jaypee University of Information Technology,Himachal Pradesh,Solan,,9000000180,coordinator180@example.com
+Shoolini University,Himachal Pradesh,Solan,,9000000181,coordinator181@example.com
+National Institute of Technology Srinagar,Jammu and Kashmir,Srinagar,,9000000182,coordinator182@example.com
+Indian Institute of Technology Jammu,Jammu and Kashmir,Jammu,,9000000183,coordinator183@example.com
+University of Kashmir,Jammu and Kashmir,Srinagar,,9000000184,coordinator184@example.com
+Shri Mata Vaishno Devi University,Jammu and Kashmir,Katra,,9000000185,coordinator185@example.com
+National Institute of Technology Goa,Goa,Farmagudi,,9000000186,coordinator186@example.com
+BITS Pilani K K Birla Goa Campus,Goa,Zuarinagar,,9000000187,coordinator187@example.com
+Goa College of Engineering,Goa,Farmagudi,,9000000188,coordinator188@example.com
+Indian Institute of Technology Goa,Goa,Ponda,,9000000189,coordinator189@example.com
+Goa University,Goa,Taleigao,,9000000190,coordinator190@example.com
+Puducherry Technological University,Puducherry,Puducherry,,9000000191,coordinator191@example.com
+Pondicherry University,Puducherry,Puducherry,,9000000192,coordinator192@example.com
+National Institute of Technology Puducherry,Puducherry,Karaikal,,9000000193,coordinator193@example.com
+Vignan's Foundation for Science Technology and Research,Andhra Pradesh,Guntur,,9000000194,coordinator194@example.com
+Koneru Lakshmaiah Education Foundation,Andhra Pradesh,Vaddeswaram,,9000000195,coordinator195@example.com
+Sri Venkateswara University,Andhra Pradesh,Tirupati,,9000000196,coordinator196@example.com
+Acharya Nagarjuna University,Andhra Pradesh,Guntur,,9000000197,coordinator197@example.com
+Gayatri Vidya Parishad College of Engineering,Andhra Pradesh,Visakhapatnam,,9000000198,coordinator198@example.com
+Anil Neerukonda Institute of Technology and Sciences,Andhra Pradesh,Visakhapatnam,,9000000199,coordinator199@example.com
+Narasaraopeta Engineering College,Andhra Pradesh,Narasaraopet,,9000000200,coordinator200@example.com
+R V R and J C College of Engineering,Andhra Pradesh,Guntur,,9000000201,coordinator201@example.com
+Prasad V Potluri Siddhartha Institute of Technology,Andhra Pradesh,Vijayawada,,9000000202,coordinator202@example.com
+V R Siddhartha Engineering College,Andhra Pradesh,Vijayawada,,9000000203,coordinator203@example.com
+Sree Vidyanikethan Engineering College,Andhra Pradesh,Tirupati,,9000000204,coordinator204@example.com
+Lakireddy Bali Reddy College of Engineering,Andhra Pradesh,Mylavaram,,9000000205,coordinator205@example.com
+Raghu Engineering College,Andhra Pradesh,Visakhapatnam,,9000000206,coordinator206@example.com
+Aditya Engineering College,Andhra Pradesh,Surampalem,,9000000207,coordinator207@example.com
+Vasireddy Venkatadri Institute of Technology,Andhra Pradesh,Guntur,,9000000208,coordinator208@example.com
+Mahatma Gandhi Institute of Technology,Telangana,Hyderabad,,9000000209,coordinator209@example.com
+Gokaraju Rangaraju Institute of Engineering and Technology,Telangana,Hyderabad,,9000000210,coordinator210@example.com
+Sreenidhi Institute of Science and Technology,Telangana,Hyderabad,,9000000211,coordinator211@example.com
+Anurag University,Telangana,Hyderabad,,9000000212,coordinator212@example.com
+Mahindra University,Telangana,Hyderabad,,9000000213,coordinator213@example.com
+Institute of Aeronautical Engineering,Telangana,Hyderabad,,9000000214,coordinator214@example.com
+VNR Vignana Jyothi Institute of Engineering and Technology,Telangana,Hyderabad,,9000000215,coordinator215@example.com
+Kakatiya University,Telangana,Warangal,,9000000216,coordinator216@example.com
+Kakatiya Institute of Technology and Science,Telangana,Warangal,,9000000217,coordinator217@example.com
+Maturi Venkata Subba Rao Engineering College,Telangana,Hyderabad,,9000000218,coordinator218@example.com
+Muffakham Jah College of Engineering and Technology,Telangana,Hyderabad,,9000000219,coordinator219@example.com
+ICFAI Foundation for Higher Education,Telangana,Hyderabad,,9000000220,coordinator220@example.com
+Malla Reddy Engineering College,Telangana,Hyderabad,,9000000221,coordinator221@example.com
+SR University,Telangana,Warangal,,9000000222,coordinator222@example.com
+Woxsen University,Telangana,Hyderabad,,9000000223,coordinator223@example.com
+REVA University,Karnataka,Bengaluru,,9000000224,coordinator224@example.com
+Christ University,Karnataka,Bengaluru,,9000000225,coordinator225@example.com
+Jain University,Karnataka,Bengaluru,,9000000226,coordinator226@example.com
+Presidency University Bengaluru,Karnataka,Bengaluru,,9000000227,coordinator227@example.com
+BMS Institute of Technology and Management,Karnataka,Bengaluru,,9000000228,coordinator228@example.com
+Sir M Visvesvaraya Institute of Technology,Karnataka,Bengaluru,,9000000229,coordinator229@example.com
+Nitte Meenakshi Institute of Technology,Karnataka,Bengaluru,,9000000230,coordinator230@example.com
+Global Academy of Technology,Karnataka,Bengaluru,,9000000231,coordinator231@example.com
+Acharya Institute of Technology,Karnataka,Bengaluru,,9000000232,coordinator232@example.com
+CMR Institute of Technology,Karnataka,Bengaluru,,9000000233,coordinator233@example.com
+New Horizon College of Engineering,Karnataka,Bengaluru,,9000000234,coordinator234@example.com
+Jyothy Institute of Technology,Karnataka,Bengaluru,,9000000235,coordinator235@example.com
+Alliance University,Karnataka,Bengaluru,,9000000236,coordinator236@example.com
+University Visvesvaraya College of Engineering,Karnataka,Bengaluru,,9000000237,coordinator237@example.com
+Vidyavardhaka College of Engineering,Karnataka,Mysuru,,9000000238,coordinator238@example.com
+Malnad College of Engineering,Karnataka,Hassan,,9000000239,coordinator239@example.com
+Canara Engineering College,Karnataka,Mangaluru,,9000000240,coordinator240@example.com
+Sahyadri College of Engineering and Management,Karnataka,Mangaluru,,9000000241,coordinator241@example.com
+St Joseph Engineering College,Karnataka,Mangaluru,,9000000242,coordinator242@example.com
+Mangalore University,Karnataka,Mangaluru,,9000000243,coordinator243@example.com
+Karnatak University,Karnataka,Dharwad,,9000000244,coordinator244@example.com
+Bapuji Institute of Engineering and Technology,Karnataka,Davangere,,9000000245,coordinator245@example.com
+Poojya Doddappa Appa College of Engineering,Karnataka,Kalaburagi,,9000000246,coordinator246@example.com
+Basaveshwar Engineering College,Karnataka,Bagalkot,,9000000247,coordinator247@example.com
+Gogte Institute of Technology,Karnataka,Belagavi,,9000000248,coordinator248@example.com
+Visvesvaraya Technological University,Karnataka,Belagavi,,9000000249,coordinator249@example.com
+SDM Institute of Technology,Karnataka,Ujire,,9000000250,coordinator250@example.com
+Srinivas Institute of Technology,Karnataka,Mangaluru,,9000000251,coordinator251@example.com
+A J Institute of Engineering and Technology,Karnataka,Mangaluru,,9000000252,coordinator252@example.com
+Dr Ambedkar Institute of Technology,Karnataka,Bengaluru,,9000000253,coordinator253@example.com
+Madras Institute of Technology,Tamil Nadu,Chennai,,9000000254,coordinator254@example.com
+Rajalakshmi Engineering College,Tamil Nadu,Chennai,,9000000255,coordinator255@example.com
+Sathyabama Institute of Science and Technology,Tamil Nadu,Chennai,,9000000256,coordinator256@example.com
+Saveetha Engineering College,Tamil Nadu,Chennai,,9000000257,coordinator257@example.com
+Hindustan Institute of Technology and Science,Tamil Nadu,Chennai,,9000000258,coordinator258@example.com
+B S Abdur Rahman Crescent Institute of Science and Technology,Tamil Nadu,Chennai,,9000000259,coordinator259@example.com
+Easwari Engineering College,Tamil Nadu,Chennai,,9000000260,coordinator260@example.com
+Sri Sai Ram Engineering College,Tamil Nadu,Chennai,,9000000261,coordinator261@example.com
+Velammal Engineering College,Tamil Nadu,Chennai,,9000000262,coordinator262@example.com
+Meenakshi Sundararajan Engineering College,Tamil Nadu,Chennai,,9000000263,coordinator263@example.com
+Loyola-ICAM College of Engineering and Technology,Tamil Nadu,Chennai,,9000000264,coordinator264@example.com
+St Joseph's College of Engineering,Tamil Nadu,Chennai,,9000000265,coordinator265@example.com
+Sri Krishna College of Engineering and Technology,Tamil Nadu,Coimbatore,,9000000266,coordinator266@example.com
+Government College of Technology,Tamil Nadu,Coimbatore,,9000000267,coordinator267@example.com
+Karunya Institute of Technology and Sciences,Tamil Nadu,Coimbatore,,9000000268,coordinator268@example.com
+Bannari Amman Institute of Technology,Tamil Nadu,Sathyamangalam,,9000000269,coordinator269@example.com
+Kongu Engineering College,Tamil Nadu,Perundurai,,9000000270,coordinator270@example.com
+Sona College of Technology,Tamil Nadu,Salem,,9000000271,coordinator271@example.com
+Mepco Schlenk Engineering College,Tamil Nadu,Sivakasi,,9000000272,coordinator272@example.com
+Kalasalingam Academy of Research and Education,Tamil Nadu,Krishnankoil,,9000000273,coordinator273@example.com
+National Engineering College,Tamil Nadu,Kovilpatti,,9000000274,coordinator274@example.com
+Vel Tech Rangarajan Dr Sagunthala R and D Institute of Science and Technology,Tamil Nadu,Chennai,,9000000275,coordinator275@example.com
+PSNA College of Engineering and Technology,Tamil Nadu,Dindigul,,9000000276,coordinator276@example.com
+Alagappa Chettiar Government College of Engineering and Technology,Tamil Nadu,Karaikudi,,9000000277,coordinator277@example.com
+Government College of Engineering Salem,Tamil Nadu,Salem,,9000000278,coordinator278@example.com
+University of Madras,Tamil Nadu,Chennai,,9000000279,coordinator279@example.com
+Bharathiar University,Tamil Nadu,Coimbatore,,9000000280,coordinator280@example.com
+Bharathidasan University,Tamil Nadu,Tiruchirappalli,,9000000281,coordinator281@example.com
+Periyar University,Tamil Nadu,Salem,,9000000282,coordinator282@example.com
+Madurai Kamaraj University,Tamil Nadu,Madurai,,9000000283,coordinator283@example.com
+Alagappa University,Tamil Nadu,Karaikudi,,9000000284,coordinator284@example.com
+Loyola College,Tamil Nadu,Chennai,,9000000285,coordinator285@example.com
+Madras Christian College,Tamil Nadu,Chennai,,9000000286,coordinator286@example.com
+Mar Athanasius College of Engineering,Kerala,Kothamangalam,,9000000287,coordinator287@example.com
+Government Engineering College Barton Hill,Kerala,Thiruvananthapuram,,9000000288,coordinator288@example.com
+University of Kerala,Kerala,Thiruvananthapuram,,9000000289,coordinator289@example.com
+Mahatma Gandhi University,Kerala,Kottayam,,9000000290,coordinator290@example.com
+University of Calicut,Kerala,Malappuram,,9000000291,coordinator291@example.com
+APJ Abdul Kalam Technological University,Kerala,Thiruvananthapuram,,9000000292,coordinator292@example.com
+Amal Jyothi College of Engineering,Kerala,Kanjirappally,,9000000293,coordinator293@example.com
+Saintgits College of Engineering,Kerala,Kottayam,,9000000294,coordinator294@example.com
+Federal Institute of Science and Technology,Kerala,Angamaly,,9000000295,coordinator295@example.com
+Model Engineering College,Kerala,Kochi,,9000000296,coordinator296@example.com
+Sree Chitra Thirunal College of Engineering,Kerala,Thiruvananthapuram,,9000000297,coordinator297@example.com
+Muthoot Institute of Technology and Science,Kerala,Kochi,,9000000298,coordinator298@example.com
+NSS College of Engineering,Kerala,Palakkad,,9000000299,coordinator299@example.com
+Digital University Kerala,Kerala,Thiruvananthapuram,,9000000300,coordinator300@example.com
+Indian Institute of Space Science and Technology,Kerala,Thiruvananthapuram,,9000000301,coordinator301@example.com
+Indian Institute of Science Education and Research Thiruvananthapuram,Kerala,Thiruvananthapuram,,9000000302,coordinator302@example.com
+Government College of Engineering Kannur,Kerala,Kannur,,9000000303,coordinator303@example.com
+Government Engineering College Sreekrishnapuram,Kerala,Palakkad,,9000000304,coordinator304@example.com
+Maharashtra Institute of Technology,Maharashtra,Pune,,9000000305,coordinator305@example.com
+Cummins College of Engineering for Women,Maharashtra,Pune,,9000000306,coordinator306@example.com
+Army Institute of Technology,Maharashtra,Pune,,9000000307,coordinator307@example.com
+Dr D Y Patil Institute of Technology,Maharashtra,Pune,,9000000308,coordinator308@example.com
+Savitribai Phule Pune University,Maharashtra,Pune,,9000000309,coordinator309@example.com
+Fergusson College,Maharashtra,Pune,,9000000310,coordinator310@example.com
+Bharati Vidyapeeth College of Engineering,Maharashtra,Pune,,9000000311,coordinator311@example.com
+Vidyalankar Institute of Technology,Maharashtra,Mumbai,,9000000312,coordinator312@example.com
+Thadomal Shahani Engineering College,Maharashtra,Mumbai,,9000000313,coordinator313@example.com
+Fr Conceicao Rodrigues College of Engineering,Maharashtra,Mumbai,,9000000314,coordinator314@example.com
+Thakur College of Engineering and Technology,Maharashtra,Mumbai,,9000000315,coordinator315@example.com
+Rajiv Gandhi Institute of Technology,Maharashtra,Mumbai,,9000000316,coordinator316@example.com
+Xavier Institute of Engineering,Maharashtra,Mumbai,,9000000317,coordinator317@example.com
+Shri Ramdeobaba College of Engineering and Management,Maharashtra,Nagpur,,9000000318,coordinator318@example.com
+G H Raisoni College of Engineering,Maharashtra,Nagpur,,9000000319,coordinator319@example.com
+Yeshwantrao Chavan College of Engineering,Maharashtra,Nagpur,,9000000320,coordinator320@example.com
+Rashtrasant Tukadoji Maharaj Nagpur University,Maharashtra,Nagpur,,9000000321,coordinator321@example.com
+Government College of Engineering Karad,Maharashtra,Karad,,9000000322,coordinator322@example.com
+Government College of Engineering Amravati,Maharashtra,Amravati,,9000000323,coordinator323@example.com
+Shri Guru Gobind Singhji Institute of Engineering and Technology,Maharashtra,Nanded,,9000000324,coordinator324@example.com
+Sinhgad College of Engineering,Maharashtra,Pune,,9000000325,coordinator325@example.com
+MIT Academy of Engineering,Maharashtra,Alandi,,9000000326,coordinator326@example.com
+Indian Institute of Science Education and Research Pune,Maharashtra,Pune,,9000000327,coordinator327@example.com
+Tata Institute of Fundamental Research,Maharashtra,Mumbai,,9000000328,coordinator328@example.com
+University of Mumbai,Maharashtra,Mumbai,,9000000329,coordinator329@example.com
+Narsee Monjee Institute of Management Studies,Maharashtra,Mumbai,,9000000330,coordinator330@example.com
+Shivaji University,Maharashtra,Kolhapur,,9000000331,coordinator331@example.com
+University of Delhi,Delhi,New Delhi,,9000000332,coordinator332@example.com
+St Stephen's College,Delhi,New Delhi,,9000000333,coordinator333@example.com
+Hindu College,Delhi,New Delhi,,9000000334,coordinator334@example.com
+Miranda House,Delhi,New Delhi,,9000000335,coordinator335@example.com
+Lady Shri Ram College for Women,Delhi,New Delhi,,9000000336,coordinator336@example.com
+Shri Ram College of Commerce,Delhi,New Delhi,,9000000337,coordinator337@example.com
+Hansraj College,Delhi,New Delhi,,9000000338,coordinator338@example.com
+Kirori Mal College,Delhi,New Delhi,,9000000339,coordinator339@example.com
+Guru Gobind Singh Indraprastha University,Delhi,New Delhi,,9000000340,coordinator340@example.com
+Ambedkar University Delhi,Delhi,New Delhi,,9000000341,coordinator341@example.com
+Bhagwan Parshuram Institute of Technology,Delhi,New Delhi,,9000000342,coordinator342@example.com
+Maharaja Surajmal Institute of Technology,Delhi,New Delhi,,9000000343,coordinator343@example.com
+Bharati Vidyapeeth's College of Engineering,Delhi,New Delhi,,9000000344,coordinator344@example.com
+Jamia Hamdard,Delhi,New Delhi,,9000000345,coordinator345@example.com
+South Asian University,Delhi,New Delhi,,9000000346,coordinator346@example.com
+Madan Mohan Malaviya University of Technology,Uttar Pradesh,Gorakhpur,,9000000347,coordinator347@example.com
+Dr A P J Abdul Kalam Technical University,Uttar Pradesh,Lucknow,,9000000348,coordinator348@example.com
+Banaras Hindu University,Uttar Pradesh,Varanasi,,9000000349,coordinator349@example.com
+University of Allahabad,Uttar Pradesh,Prayagraj,,9000000350,coordinator350@example.com
+University of Lucknow,Uttar Pradesh,Lucknow,,9000000351,coordinator351@example.com
+Babasaheb Bhimrao Ambedkar University,Uttar Pradesh,Lucknow,,9000000352,coordinator352@example.com
+Indian Institute of Information Technology Lucknow,Uttar Pradesh,Lucknow,,9000000353,coordinator353@example.com
+Hindustan College of Science and Technology,Uttar Pradesh,Mathura,,9000000354,coordinator354@example.com
+GLA University,Uttar Pradesh,Mathura,,9000000355,coordinator355@example.com
+Sharda University,Uttar Pradesh,Greater Noida,,9000000356,coordinator356@example.com
+Noida Institute of Engineering and Technology,Uttar Pradesh,Greater Noida,,9000000357,coordinator357@example.com
+JSS Academy of Technical Education,Uttar Pradesh,Noida,,9000000358,coordinator358@example.com
+ABES Engineering College,Uttar Pradesh,Ghaziabad,,9000000359,coordinator359@example.com
+Meerut Institute of Engineering and Technology,Uttar Pradesh,Meerut,,9000000360,coordinator360@example.com
+Chaudhary Charan Singh University,Uttar Pradesh,Meerut,,9000000361,coordinator361@example.com
+Kamla Nehru Institute of Technology,Uttar Pradesh,Sultanpur,,9000000362,coordinator362@example.com
+Bundelkhand Institute of Engineering and Technology,Uttar Pradesh,Jhansi,,9000000363,coordinator363@example.com
+Babu Banarasi Das University,Uttar Pradesh,Lucknow,,9000000364,coordinator364@example.com
+Integral University,Uttar Pradesh,Lucknow,,9000000365,coordinator365@example.com
+Invertis University,Uttar Pradesh,Bareilly,,9000000366,coordinator366@example.com
+Teerthanker Mahaveer University,Uttar Pradesh,Moradabad,,9000000367,coordinator367@example.com
+Dayalbagh Educational Institute,Uttar Pradesh,Agra,,9000000368,coordinator368@example.com
+Pranveer Singh Institute of Technology,Uttar Pradesh,Kanpur,,9000000369,coordinator369@example.com
+Guru Jambheshwar University of Science and Technology,Haryana,Hisar,,9000000370,coordinator370@example.com
+Chaudhary Devi Lal University,Haryana,Sirsa,,9000000371,coordinator371@example.com
+J C Bose University of Science and Technology YMCA,Haryana,Faridabad,,9000000372,coordinator372@example.com
+Amity University Haryana,Haryana,Gurugram,,9000000373,coordinator373@example.com
+O P Jindal Global University,Haryana,Sonipat,,9000000374,coordinator374@example.com
+Maharishi Markandeshwar University,Haryana,Mullana,,9000000375,coordinator375@example.com
+Kurukshetra University,Haryana,Kurukshetra,,9000000376,coordinator376@example.com
+Manav Rachna International Institute of Research and Studies,Haryana,Faridabad,,9000000377,coordinator377@example.com
+The NorthCap University,Haryana,Gurugram,,9000000378,coordinator378@example.com
+BML Munjal University,Haryana,Gurugram,,9000000379,coordinator379@example.com
+SRM University Haryana,Haryana,Sonipat,,9000000380,coordinator380@example.com
+Panipat Institute of Engineering and Technology,Haryana,Panipat,,9000000381,coordinator381@example.com
+Central University of Haryana,Haryana,Mahendragarh,,9000000382,coordinator382@example.com
+Punjab Agricultural University,Punjab,Ludhiana,,9000000383,coordinator383@example.com
+Punjabi University,Punjab,Patiala,,9000000384,coordinator384@example.com
+Guru Nanak Dev University,Punjab,Amritsar,,9000000385,coordinator385@example.com
+Sant Longowal Institute of Engineering and Technology,Punjab,Longowal,,9000000386,coordinator386@example.com
+I K Gujral Punjab Technical University,Punjab,Kapurthala,,9000000387,coordinator387@example.com
+Chandigarh Engineering College,Punjab,Mohali,,9000000388,coordinator388@example.com
+Beant College of Engineering and Technology,Punjab,Gurdaspur,,9000000389,coordinator389@example.com
+Giani Zail Singh Campus College of Engineering and Technology,Punjab,Bathinda,,9000000390,coordinator390@example.com
+Central University of Punjab,Punjab,Bathinda,,9000000391,coordinator391@example.com
+Sri Guru Granth Sahib World University,Punjab,Fatehgarh Sahib,,9000000392,coordinator392@example.com
+D A V Institute of Engineering and Technology,Punjab,Jalandhar,,9000000393,coordinator393@example.com
+Lyallpur Khalsa College,Punjab,Jalandhar,,9000000394,coordinator394@example.com
+Chandigarh College of Engineering and Technology,Chandigarh,Chandigarh,,9000000395,coordinator395@example.com
+University Institute of Engineering and Technology Panjab University,Chandigarh,Chandigarh,,9000000396,coordinator396@example.com
+DAV College,Chandigarh,Chandigarh,,9000000397,coordinator397@example.com
+University of Rajasthan,Rajasthan,Jaipur,,9000000398,coordinator398@example.com
+Jaipur National University,Rajasthan,Jaipur,,9000000399,coordinator399@example.com
+Poornima College of Engineering,Rajasthan,Jaipur,,9000000400,coordinator400@example.com
+Jaipur Engineering College and Research Centre,Rajasthan,Jaipur,,9000000401,coordinator401@example.com
+Arya College of Engineering and IT,Rajasthan,Jaipur,,9000000402,coordinator402@example.com
+Swami Keshvanand Institute of Technology,Rajasthan,Jaipur,,9000000403,coordinator403@example.com
+Vivekananda Global University,Rajasthan,Jaipur,,9000000404,coordinator404@example.com
+Mohanlal Sukhadia University,Rajasthan,Udaipur,,9000000405,coordinator405@example.com
+Maharana Pratap University of Agriculture and Technology,Rajasthan,Udaipur,,9000000406,coordinator406@example.com
+Government Engineering College Ajmer,Rajasthan,Ajmer,,9000000407,coordinator407@example.com
+Government Engineering College Bikaner,Rajasthan,Bikaner,,9000000408,coordinator408@example.com
+Central University of Rajasthan,Rajasthan,Kishangarh,,9000000409,coordinator409@example.com
+Jai Narain Vyas University,Rajasthan,Jodhpur,,9000000410,coordinator410@example.com
+Mody University of Science and Technology,Rajasthan,Lakshmangarh,,9000000411,coordinator411@example.com
+Amity University Rajasthan,Rajasthan,Jaipur,,9000000412,coordinator412@example.com
+Government Engineering College Jhalawar,Rajasthan,Jhalawar,,9000000413,coordinator413@example.com
+Charotar University of Science and Technology,Gujarat,Changa,,9000000414,coordinator414@example.com
+Ahmedabad University,Gujarat,Ahmedabad,,9000000415,coordinator415@example.com
+Parul University,Gujarat,Vadodara,,9000000416,coordinator416@example.com
+Gujarat University,Gujarat,Ahmedabad,,9000000417,coordinator417@example.com
+Sardar Patel University,Gujarat,Vallabh Vidyanagar,,9000000418,coordinator418@example.com
+Dharmsinh Desai University,Gujarat,Nadiad,,9000000419,coordinator419@example.com
+Birla Vishvakarma Mahavidyalaya,Gujarat,Vallabh Vidyanagar,,9000000420,coordinator420@example.com
+Vishwakarma Government Engineering College,Gujarat,Ahmedabad,,9000000421,coordinator421@example.com
+Government Engineering College Gandhinagar,Gujarat,Gandhinagar,,9000000422,coordinator422@example.com
+Marwadi University,Gujarat,Rajkot,,9000000423,coordinator423@example.com
+R K University,Gujarat,Rajkot,,9000000424,coordinator424@example.com
+Atmiya University,Gujarat,Rajkot,,9000000425,coordinator425@example.com
+Saurashtra University,Gujarat,Rajkot,,9000000426,coordinator426@example.com
+Silver Oak University,Gujarat,Ahmedabad,,9000000427,coordinator427@example.com
+Navrachana University,Gujarat,Vadodara,,9000000428,coordinator428@example.com
+Indus University,Gujarat,Ahmedabad,,9000000429,coordinator429@example.com
+Indian Institute of Information Technology Surat,Gujarat,Surat,,9000000430,coordinator430@example.com
+Veer Narmad South Gujarat University,Gujarat,Surat,,9000000431,coordinator431@example.com
+Central University of Gujarat,Gujarat,Gandhinagar,,9000000432,coordinator432@example.com
+Ganpat University,Gujarat,Mehsana,,9000000433,coordinator433@example.com
+Sal Institute of Technology and Engineering Research,Gujarat,Ahmedabad,,9000000434,coordinator434@example.com
+Rajiv Gandhi Proudyogiki Vishwavidyalaya,Madhya Pradesh,Bhopal,,9000000435,coordinator435@example.com
+Barkatullah University,Madhya Pradesh,Bhopal,,9000000436,coordinator436@example.com
+Devi Ahilya Vishwavidyalaya,Madhya Pradesh,Indore,,9000000437,coordinator437@example.com
+Oriental Institute of Science and Technology,Madhya Pradesh,Bhopal,,9000000438,coordinator438@example.com
+LNCT University,Madhya Pradesh,Bhopal,,9000000439,coordinator439@example.com
+Sagar Institute of Research and Technology,Madhya Pradesh,Bhopal,,9000000440,coordinator440@example.com
+Truba Institute of Engineering and Information Technology,Madhya Pradesh,Bhopal,,9000000441,coordinator441@example.com
+IPS Academy Institute of Engineering and Science,Madhya Pradesh,Indore,,9000000442,coordinator442@example.com
+Acropolis Institute of Technology and Research,Madhya Pradesh,Indore,,9000000443,coordinator443@example.com
+Shri Vaishnav Vidyapeeth Vishwavidyalaya,Madhya Pradesh,Indore,,9000000444,coordinator444@example.com
+Jiwaji University,Madhya Pradesh,Gwalior,,9000000445,coordinator445@example.com
+Madhav Institute of Technology and Science,Madhya Pradesh,Gwalior,,9000000446,coordinator446@example.com
+Rani Durgavati Vishwavidyalaya,Madhya Pradesh,Jabalpur,,9000000447,coordinator447@example.com
+Dr Harisingh Gour Vishwavidyalaya,Madhya Pradesh,Sagar,,9000000448,coordinator448@example.com
+Indian Institute of Science Education and Research Bhopal,Madhya Pradesh,Bhopal,,9000000449,coordinator449@example.com
+Vikram University,Madhya Pradesh,Ujjain,,9000000450,coordinator450@example.com
+Samrat Ashok Technological Institute,Madhya Pradesh,Vidisha,,9000000451,coordinator451@example.com
+Jaypee University of Engineering and Technology,Madhya Pradesh,Guna,,9000000452,coordinator452@example.com
+Pt Ravishankar Shukla University,Chhattisgarh,Raipur,,9000000453,coordinator453@example.com
+Chhattisgarh Swami Vivekanand Technical University,Chhattisgarh,Bhilai,,9000000454,coordinator454@example.com
+Guru Ghasidas Vishwavidyalaya,Chhattisgarh,Bilaspur,,9000000455,coordinator455@example.com
+Government Engineering College Bilaspur,Chhattisgarh,Bilaspur,,9000000456,coordinator456@example.com
+Rungta College of Engineering and Technology,Chhattisgarh,Bhilai,,9000000457,coordinator457@example.com
+Shri Shankaracharya Technical Campus,Chhattisgarh,Bhilai,,9000000458,coordinator458@example.com
+Kalinga University,Chhattisgarh,Naya Raipur,,9000000459,coordinator459@example.com
+Dr C V Raman University,Chhattisgarh,Bilaspur,,9000000460,coordinator460@example.com
+MATS University,Chhattisgarh,Raipur,,9000000461,coordinator461@example.com
+Utkal University,Odisha,Bhubaneswar,,9000000462,coordinator462@example.com
+Ravenshaw University,Odisha,Cuttack,,9000000463,coordinator463@example.com
+Odisha University of Technology and Research,Odisha,Bhubaneswar,,9000000464,coordinator464@example.com
+Centurion University of Technology and Management,Odisha,Paralakhemundi,,9000000465,coordinator465@example.com
+Sambalpur University,Odisha,Sambalpur,,9000000466,coordinator466@example.com
+C V Raman Global University,Odisha,Bhubaneswar,,9000000467,coordinator467@example.com
+Gandhi Institute for Technology,Odisha,Bhubaneswar,,9000000468,coordinator468@example.com
+Trident Academy of Technology,Odisha,Bhubaneswar,,9000000469,coordinator469@example.com
+National Institute of Science Education and Research,Odisha,Bhubaneswar,,9000000470,coordinator470@example.com
+National Institute of Science and Technology,Odisha,Berhampur,,9000000471,coordinator471@example.com
+Government College of Engineering Kalahandi,Odisha,Bhawanipatna,,9000000472,coordinator472@example.com
+Indira Gandhi Institute of Technology Sarang,Odisha,Dhenkanal,,9000000473,coordinator473@example.com
+Silicon Institute of Technology,Odisha,Bhubaneswar,,9000000474,coordinator474@example.com
+Fakir Mohan University,Odisha,Balasore,,9000000475,coordinator475@example.com
+Berhampur University,Odisha,Berhampur,,9000000476,coordinator476@example.com
+University of Calcutta,West Bengal,Kolkata,,9000000477,coordinator477@example.com
+St Xavier's College,West Bengal,Kolkata,,9000000478,coordinator478@example.com
+Techno India University,West Bengal,Kolkata,,9000000479,coordinator479@example.com
+Maulana Abul Kalam Azad University of Technology,West Bengal,Kolkata,,9000000480,coordinator480@example.com
+Kalyani Government Engineering College,West Bengal,Kalyani,,9000000481,coordinator481@example.com
+Netaji Subhash Engineering College,West Bengal,Kolkata,,9000000482,coordinator482@example.com
+Academy of Technology,West Bengal,Hooghly,,9000000483,coordinator483@example.com
+RCC Institute of Information Technology,West Bengal,Kolkata,,9000000484,coordinator484@example.com
+Haldia Institute of Technology,West Bengal,Haldia,,9000000485,coordinator485@example.com
+Siliguri Institute of Technology,West Bengal,Siliguri,,9000000486,coordinator486@example.com
+University of North Bengal,West Bengal,Siliguri,,9000000487,coordinator487@example.com
+Visva-Bharati,West Bengal,Santiniketan,,9000000488,coordinator488@example.com
+University of Burdwan,West Bengal,Bardhaman,,9000000489,coordinator489@example.com
+Kazi Nazrul University,West Bengal,Asansol,,9000000490,coordinator490@example.com
+Calcutta Institute of Engineering and Management,West Bengal,Kolkata,,9000000491,coordinator491@example.com
+Jalpaiguri Government Engineering College,West Bengal,Jalpaiguri,,9000000492,coordinator492@example.com
+Cooch Behar Government Engineering College,West Bengal,Cooch Behar,,9000000493,coordinator493@example.com
+Indian Statistical Institute,West Bengal,Kolkata,,9000000494,coordinator494@example.com
+Indian Institute of Science Education and Research Kolkata,West Bengal,Mohanpur,,9000000495,coordinator495@example.com
+JIS College of Engineering,West Bengal,Kalyani,,9000000496,coordinator496@example.com
+Meghnad Saha Institute of Technology,West Bengal,Kolkata,,9000000497,coordinator497@example.com
+Patna University,Bihar,Patna,,9000000498,coordinator498@example.com
+Aryabhatta Knowledge University,Bihar,Patna,,9000000499,coordinator499@example.com
+Bihar Engineering University,Bihar,Patna,,9000000500,coordinator500@example.com
+Birla Institute of Technology Patna Campus,Bihar,Patna,,9000000501,coordinator501@example.com
+Muzaffarpur Institute of Technology,Bihar,Muzaffarpur,,9000000502,coordinator502@example.com
+Bhagalpur College of Engineering,Bihar,Bhagalpur,,9000000503,coordinator503@example.com
+Gaya College of Engineering,Bihar,Gaya,,9000000504,coordinator504@example.com
+Darbhanga College of Engineering,Bihar,Darbhanga,,9000000505,coordinator505@example.com
+Central University of South Bihar,Bihar,Gaya,,9000000506,coordinator506@example.com
+Nalanda University,Bihar,Rajgir,,9000000507,coordinator507@example.com
+Patna Women's College,Bihar,Patna,,9000000508,coordinator508@example.com
+Lalit Narayan Mithila University,Bihar,Darbhanga,,9000000509,coordinator509@example.com
+Babasaheb Bhimrao Ambedkar Bihar University,Bihar,Muzaffarpur,,9000000510,coordinator510@example.com
+Magadh University,Bihar,Bodh Gaya,,9000000511,coordinator511@example.com
+Motihari College of Engineering,Bihar,Motihari,,9000000512,coordinator512@example.com
+Ranchi University,Jharkhand,Ranchi,,9000000513,coordinator513@example.com
+Central University of Jharkhand,Jharkhand,Ranchi,,9000000514,coordinator514@example.com
+Cambridge Institute of Technology,Jharkhand,Ranchi,,9000000515,coordinator515@example.com
+Ramgarh Engineering College,Jharkhand,Ramgarh,,9000000516,coordinator516@example.com
+RTC Institute of Technology,Jharkhand,Ranchi,,9000000517,coordinator517@example.com
+Jharkhand University of Technology,Jharkhand,Ranchi,,9000000518,coordinator518@example.com
+Vinoba Bhave University,Jharkhand,Hazaribagh,,9000000519,coordinator519@example.com
+Kolhan University,Jharkhand,Chaibasa,,9000000520,coordinator520@example.com
+Sarala Birla University,Jharkhand,Ranchi,,9000000521,coordinator521@example.com
+XLRI Xavier School of Management,Jharkhand,Jamshedpur,,9000000522,coordinator522@example.com
+Cotton University,Assam,Guwahati,,9000000523,coordinator523@example.com
+Assam University,Assam,Silchar,,9000000524,coordinator524@example.com
+Assam Don Bosco University,Assam,Guwahati,,9000000525,coordinator525@example.com
+Royal Global University,Assam,Guwahati,,9000000526,coordinator526@example.com
+Girijananda Chowdhury Institute of Management and Technology,Assam,Guwahati,,9000000527,coordinator527@example.com
+Assam Science and Technology University,Assam,Guwahati,,9000000528,coordinator528@example.com
+Kaziranga University,Assam,Jorhat,,9000000529,coordinator529@example.com
+Indian Institute of Information Technology Guwahati,Assam,Guwahati,,9000000530,coordinator530@example.com
+Bodoland University,Assam,Kokrajhar,,9000000531,coordinator531@example.com
+Central Institute of Technology Kokrajhar,Assam,Kokrajhar,,9000000532,coordinator532@example.com
+Assam Agricultural University,Assam,Jorhat,,9000000533,coordinator533@example.com
+Martin Luther Christian University,Meghalaya,Shillong,,9000000534,coordinator534@example.com
+University of Science and Technology Meghalaya,Meghalaya,Ri-Bhoi,,9000000535,coordinator535@example.com
+Techno Global University,Meghalaya,Shillong,,9000000536,coordinator536@example.com
+Nagaland University,Nagaland,Kohima,,9000000537,coordinator537@example.com
+Manipur University,Manipur,Imphal,,9000000538,coordinator538@example.com
+Central Agricultural University,Manipur,Imphal,,9000000539,coordinator539@example.com
+Pachhunga University College,Mizoram,Aizawl,,9000000540,coordinator540@example.com
+Rajiv Gandhi University,Arunachal Pradesh,Itanagar,,9000000541,coordinator541@example.com
+Himalayan University,Arunachal Pradesh,Itanagar,,9000000542,coordinator542@example.com
+Tripura Institute of Technology,Tripura,Narsingarh,,9000000543,coordinator543@example.com
+Sikkim University,Sikkim,Gangtok,,9000000544,coordinator544@example.com
+Sikkim Manipal University,Sikkim,Gangtok,,9000000545,coordinator545@example.com
+Uttarakhand Technical University,Uttarakhand,Dehradun,,9000000546,coordinator546@example.com
+Hemvati Nandan Bahuguna Garhwal University,Uttarakhand,Srinagar Garhwal,,9000000547,coordinator547@example.com
+Kumaun University,Uttarakhand,Nainital,,9000000548,coordinator548@example.com
+Govind Ballabh Pant University of Agriculture and Technology,Uttarakhand,Pantnagar,,9000000549,coordinator549@example.com
+Doon University,Uttarakhand,Dehradun,,9000000550,coordinator550@example.com
+DIT University,Uttarakhand,Dehradun,,9000000551,coordinator551@example.com
+Tula's Institute,Uttarakhand,Dehradun,,9000000552,coordinator552@example.com
+Quantum University,Uttarakhand,Roorkee,,9000000553,coordinator553@example.com
+College of Engineering Roorkee,Uttarakhand,Roorkee,,9000000554,coordinator554@example.com
+Kumaon Engineering College,Uttarakhand,Dwarahat,,9000000555,coordinator555@example.com
+Uttaranchal University,Uttarakhand,Dehradun,,9000000556,coordinator556@example.com
+Dev Bhoomi Uttarakhand University,Uttarakhand,Dehradun,,9000000557,coordinator557@example.com
+Gurukula Kangri Vishwavidyalaya,Uttarakhand,Haridwar,,9000000558,coordinator558@example.com
+Dev Sanskriti Vishwavidyalaya,Uttarakhand,Haridwar,,9000000559,coordinator559@example.com
+Roorkee Institute of Technology,Uttarakhand,Roorkee,,9000000560,coordinator560@example.com
+Himachal Pradesh University,Himachal Pradesh,Shimla,,9000000561,coordinator561@example.com
+Chitkara University Himachal Pradesh,Himachal Pradesh,Baddi,,9000000562,coordinator562@example.com
+Baddi University of Emerging Sciences and Technologies,Himachal Pradesh,Baddi,,9000000563,coordinator563@example.com
+Maharaja Agrasen University,Himachal Pradesh,Baddi,,9000000564,coordinator564@example.com
+Career Point University,Himachal Pradesh,Hamirpur,,9000000565,coordinator565@example.com
+Himachal Pradesh Technical University,Himachal Pradesh,Hamirpur,,9000000566,coordinator566@example.com
+Atal Bihari Vajpayee Government Institute of Engineering and Technology,Himachal Pradesh,Shimla,,9000000567,coordinator567@example.com
+Indus International University,Himachal Pradesh,Una,,9000000568,coordinator568@example.com
+Abhilashi University,Himachal Pradesh,Mandi,,9000000569,coordinator569@example.com
+Eternal University,Himachal Pradesh,Baru Sahib,,9000000570,coordinator570@example.com
+Central University of Himachal Pradesh,Himachal Pradesh,Dharamshala,,9000000571,coordinator571@example.com
+Jawaharlal Nehru Government Engineering College,Himachal Pradesh,Sundernagar,,9000000572,coordinator572@example.com
+Islamic University of Science and Technology,Jammu and Kashmir,Awantipora,,9000000573,coordinator573@example.com
+Central University of Jammu,Jammu and Kashmir,Samba,,9000000574,coordinator574@example.com
+University of Jammu,Jammu and Kashmir,Jammu,,9000000575,coordinator575@example.com
+Baba Ghulam Shah Badshah University,Jammu and Kashmir,Rajouri,,9000000576,coordinator576@example.com
+Government College of Engineering and Technology,Jammu and Kashmir,Jammu,,9000000577,coordinator577@example.com
+Cluster University Srinagar,Jammu and Kashmir,Srinagar,,9000000578,coordinator578@example.com
+Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir,Jammu and Kashmir,Srinagar,,9000000579,coordinator579@example.com
+Central University of Kashmir,Jammu and Kashmir,Ganderbal,,9000000580,coordinator580@example.com
+University of Ladakh,Ladakh,Leh,,9000000581,coordinator581@example.com
+Padre Conceicao College of Engineering,Goa,Margao,,9000000582,coordinator582@example.com
+Don Bosco College of Engineering,Goa,Fatorda,,9000000583,coordinator583@example.com
+Agnel Technical Education Complex,Goa,Verna,,9000000584,coordinator584@example.com
+Goa Institute of Management,Goa,Sanquelim,,9000000585,coordinator585@example.com
+Chowgule College,Goa,Margao,,9000000586,coordinator586@example.com
+Dhempe College of Arts and Science,Goa,Panaji,,9000000587,coordinator587@example.com
+St Xavier's College,Goa,Mapusa,,9000000588,coordinator588@example.com
+Sri Manakula Vinayagar Engineering College,Puducherry,Puducherry,,9000000589,coordinator589@example.com
+Rajiv Gandhi College of Engineering and Technology,Puducherry,Puducherry,,9000000590,coordinator590@example.com
+Sri Venkateshwaraa College of Engineering and Technology,Puducherry,Puducherry,,9000000591,coordinator591@example.com
+Christ College of Engineering and Technology,Puducherry,Puducherry,,9000000592,coordinator592@example.com
+Perunthalaivar Kamarajar Institute of Engineering and Technology,Puducherry,Karaikal,,9000000593,coordinator593@example.com
+Jawaharlal Nehru Rajkiya Mahavidyalaya,Andaman and Nicobar Islands,Port Blair,,9000000594,coordinator594@example.com

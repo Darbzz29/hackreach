@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Import colleges - HackReach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<style>
+  .stack { max-width: 860px; display: grid; gap: 18px; }
+  code { background: #eef1f6; padding: 2px 7px; border-radius: 5px; font-size: 13px; }
+  .drop { display: block; border: 2px dashed #c9d2e2; border-radius: 10px; padding: 34px; text-align: center; cursor: pointer; color: var(--muted); background: #fafbfd; }
+  .drop:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .drop b { display: block; color: var(--ink); font-size: 16px; margin-bottom: 2px; }
+  .drop input { display: none; }
+  .msg { margin: 14px 0 0; font-weight: 500; }
+  .msg.err { color: var(--danger); } .msg.ok { color: #1f7a4f; }
+  .hidden { display: none; }
+  .card table { margin-top: 12px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><i>H</i>HackReach</div>
+    <nav>
+      <a href="/#dashboard" class="navlink">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        Dashboard
+      </a>
+      <a href="/#colleges" class="navlink">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>
+        Colleges
+      </a>
+      <a href="/import.html" class="navlink active">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0L8 8m4-4 4 4M4 20h16"/></svg>
+        Import CSV
+      </a>
+    </nav>
+    <div class="side-foot"><b>HackReach</b>Intercollege hackathon outreach</div>
+  </aside>
+
+  <div class="main">
+    <header class="top">
+      <div><h1>Import colleges</h1><p>Upload a CSV file to add many colleges at once.</p></div>
+    </header>
+    <div class="content">
+      <div class="stack">
+        <section class="card">
+          <h2>Your CSV needs these column headings</h2>
+          <p class="hint" style="margin:6px 0 0">
+            <code>name</code> <code>state</code> <code>city</code> <code>coordinatorName</code> <code>phone</code> <code>email</code><br><br>
+            Only <code>name</code> and <code>state</code> are required. Colleges that already exist (same name and state) are skipped.
+          </p>
+        </section>
+
+        <section class="card">
+          <label class="drop" id="drop">
+            <b id="dropTitle">Choose a CSV file</b>
+            <span id="dropSub">Click here and pick the file from your computer</span>
+            <input type="file" id="file" accept=".csv,text/csv">
+          </label>
+
+          <div id="previewBox" class="hidden">
+            <p class="msg" id="count"></p>
+            <table>
+              <thead><tr><th>College</th><th>State</th><th>City</th><th>Coordinator</th><th>Phone</th></tr></thead>
+              <tbody id="preview"></tbody>
+            </table>
+            <p style="margin:16px 0 0"><button class="btn primary" id="go">Import colleges</button></p>
+          </div>
+          <p class="msg" id="result" role="status"></p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s || "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const ALIASES = {
+    name: ["name", "collegename", "college", "institute", "institution", "institutename"],
+    state: ["state"],
+    city: ["city", "town", "location"],
+    coordinatorName: ["coordinatorname", "coordinator", "contactname", "contactperson", "contact"],
+    phone: ["phone", "phonenumber", "mobile", "mobilenumber", "contactnumber"],
+    email: ["email", "emailid", "mail"]
+  };
+
+  function parseCSV(text) {
+    text = text.replace(/^\uFEFF/, "");
+    const rows = [];
+    let row = [], cell = "", quoted = false;
+    for (let i = 0; i < text.length; i++) {
+      const ch = text[i];
+      if (quoted) {
+        if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++; }
+        else if (ch === '"') quoted = false;
+        else cell += ch;
+      } else if (ch === '"') quoted = true;
+      else if (ch === ",") { row.push(cell); cell = ""; }
+      else if (ch === "\n" || ch === "\r") {
+        if (ch === "\r" && text[i + 1] === "\n") i++;
+        row.push(cell); cell = "";
+        if (row.some((c) => c.trim() !== "")) rows.push(row);
+        row = [];
+      } else cell += ch;
+    }
+    row.push(cell);
+    if (row.some((c) => c.trim() !== "")) rows.push(row);
+    return rows;
+  }
+
+  let records = [];
+
+  function toRecords(rows) {
+    const heads = rows[0].map((h) => h.toLowerCase().replace(/[^a-z]/g, ""));
+    const index = {};
+    for (const field in ALIASES) index[field] = heads.findIndex((h) => ALIASES[field].includes(h));
+    if (index.name < 0 || index.state < 0) return null;
+    return rows.slice(1).map((r) => {
+      const rec = {};
+      for (const field in index) rec[field] = index[field] >= 0 ? (r[index[field]] || "").trim() : "";
+      return rec;
+    });
+  }
+
+  $("file").addEventListener("change", async (e) => {
+    const file = e.target.files[0];
+    $("result").textContent = "";
+    $("result").className = "msg";
+    if (!file) return;
+
+    const rows = parseCSV(await file.text());
+    const parsed = rows.length > 1 ? toRecords(rows) : null;
+
+    if (!parsed) {
+      records = [];
+      $("previewBox").classList.add("hidden");
+      $("result").className = "msg err";
+      $("result").textContent = "Couldn't read this file. The first row must have the headings name and state.";
+      return;
+    }
+
+    records = parsed.filter((r) => r.name && r.state);
+    $("dropTitle").textContent = file.name;
+    $("dropSub").textContent = "Click to choose a different file";
+    $("count").textContent = records.length + " colleges ready to import" +
+      (parsed.length > records.length ? " (" + (parsed.length - records.length) + " rows skipped for a missing name or state)" : "");
+    $("preview").innerHTML = records.slice(0, 5).map((r) =>
+      `<tr><td>${esc(r.name)}</td><td>${esc(r.state)}</td><td>${esc(r.city)}</td><td>${esc(r.coordinatorName)}</td><td>${esc(r.phone)}</td></tr>`
+    ).join("");
+    $("previewBox").classList.remove("hidden");
+  });
+
+  $("go").addEventListener("click", async () => {
+    $("go").disabled = true;
+    $("go").textContent = "Importing...";
+    $("result").className = "msg";
+    $("result").textContent = "";
+    try {
+      const res = await fetch("/api/colleges/import", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ rows: records })
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error);
+      $("result").className = "msg ok";
+      $("result").innerHTML = `Imported ${data.added} new colleges. ${data.alreadyExisted} already existed. <a href="/#colleges">View colleges</a>`;
+    } catch (err) {
+      $("result").className = "msg err";
+      $("result").textContent = "Import failed: " + err.message;
+    } finally {
+      $("go").disabled = false;
+      $("go").textContent = "Import colleges";
+    }
+  });
+</script>
+</body>
+</html>
+

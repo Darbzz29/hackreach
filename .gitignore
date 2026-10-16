@@ -1,0 +1,13 @@
+﻿node_modules/
+*.backup.*
+*.backup2.*
+*.removed.txt
+aicte.csv
+colleges-ready.csv
+.env
+contacts-*.csv
+*-names.csv
+models/patch.ps1
+contacts-*.csv
+*-names.csv
+models/patch.ps1

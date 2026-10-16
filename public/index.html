@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HackReach</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><i>H</i>HackReach</div>
+    <nav>
+      <a href="#dashboard" class="navlink" id="nav-dashboard" data-view="dashboard">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+        Dashboard
+      </a>
+      <a href="#colleges" class="navlink" id="nav-colleges" data-view="colleges">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>
+        Colleges <span class="navbadge" id="navCount">0</span>
+      </a>
+      <a href="#callist" class="navlink" id="nav-callist" data-view="callist">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call list <span class="navbadge" id="navDue">0</span>
+      </a>
+      <a href="/import.html" class="navlink">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4m0 0L8 8m4-4 4 4M4 20h16"/></svg>
+        Import CSV
+      </a>
+    </nav>
+    <div class="side-foot"><b>HackReach</b>Intercollege hackathon outreach</div>
+  </aside>
+
+  <div class="main">
+    <header class="top">
+      <div><h1 id="pageTitle">Dashboard</h1><p id="pageSub"></p></div>
+      <button class="btn primary" id="openAdd" type="button">Add college</button>
+    </header>
+
+    <div class="content">
+      <section class="view" id="view-dashboard">
+        <div class="card intro">
+          <h2>Find a college, reach its club, log the call</h2>
+          <p>HackReach keeps your hackathon outreach in one place. Look up a college, call its student club coordinator, record what they said and track who has the flyer.</p>
+        </div>
+        <div class="kpis">
+          <div class="card kpi"><b id="kpiTotal">0</b><span>Colleges in the list</span></div>
+          <div class="card kpi"><b id="kpiContacted">0</b><span>Contacted so far</span></div>
+          <div class="card kpi"><b id="kpiRegistered">0</b><span>Registered</span></div>
+          <div class="card kpi"><b id="heroStates">0</b><span>States and territories</span></div>
+        </div>
+        <div class="grid2">
+          <div class="card">
+            <h2>Outreach pipeline</h2>
+            <p class="hint">Click a stage to see those colleges.</p>
+            <div class="summary-top"><b id="total">0</b><span id="goalText"></span></div>
+            <div class="pipeline" id="pipeline"></div>
+            <div class="legend" id="legend"></div>
+          </div>
+          <div class="card">
+            <h2>Progress by state</h2>
+            <p class="hint"><span id="stateCount"></span>. Contacted out of total colleges. Click a state to open it.</p>
+            <div class="state-list" id="stateList"></div>
+          </div>
+        </div>
+      </section>
+
+<section class="view" id="view-callist" hidden>
+        <div class="card">
+          <h2>Due for a call</h2>
+          <p class="hint">Colleges with a follow-up date of today or earlier, oldest first.</p>
+          <div id="dueList"></div>
+        </div>
+      </section>
+
+      <section class="view" id="view-colleges" hidden>
+        <div class="panel">
+          <div class="toolbar">
+            <input id="search" placeholder="Search by college, city or coordinator">
+            <select id="fState"><option value="">All states</option></select>
+            <select id="fStatus"><option value="">All statuses</option></select>
+            <button class="btn" id="exportBtn" type="button">Export CSV</button>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead><tr><th>College</th><th>State</th><th>Coordinator</th><th>Contact</th><th>Status</th></tr></thead>
+              <tbody id="rows"></tbody>
+            </table>
+          </div>
+          <div class="empty" id="empty" style="display:none">
+            <b>No colleges to show</b>
+            <span id="emptyText"></span><br>
+            <button class="btn primary" id="emptyAdd" type="button">Add college</button>
+          </div>
+          <div class="pager" id="pager">
+            <span id="range"></span>
+            <div><button class="btn" id="prev" type="button">Previous</button><button class="btn" id="next" type="button">Next</button></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+
+<dialog id="dlg">
+  <div class="drawer-head">
+    <h2>Add college</h2>
+    <button class="close" id="closeAdd" type="button" aria-label="Close">&times;</button>
+  </div>
+  <form id="form">
+    <label class="full">College name<input name="name" required></label>
+    <label>State<input name="state" required></label>
+    <label>City<input name="city"></label>
+    <label class="full">Coordinator name<input name="coordinatorName"></label>
+    <label>Phone<input name="phone" type="tel"></label>
+    <label>Email<input name="email" type="email"></label>
+    <p id="err"></p>
+    <div class="actions">
+      <button class="btn" type="button" id="cancelAdd">Cancel</button>
+      <button class="btn primary" type="submit">Save college</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="dlg2">
+  <div class="drawer-head">
+    <div><h2 id="cTitle"></h2><span class="sub" id="cSub"></span></div>
+    <button class="close" id="closeDetail" type="button" aria-label="Close">&times;</button>
+  </div>
+  <form id="editForm">
+    <label class="full">Coordinator name<input name="coordinatorName"></label>
+    <label>Phone<input name="phone" type="tel"></label>
+    <label>Email<input name="email" type="email"></label>
+    <label>City<input name="city"></label>
+    <label>Follow up on<input name="nextFollowUp" type="date"></label>
+    <div class="actions"><button class="btn primary" type="submit">Save details</button></div>
+  </form>
+  <form id="callForm" style="border-top:1px solid var(--line)">
+    <h3>Log a call</h3>
+    <label class="full">Outcome<select id="outcome" name="outcome"></select></label>
+    <label class="full">Note<input name="note" placeholder="What did they say?"></label>
+    <label class="full">Call back on (optional)<input name="callBack" type="date"></label>
+    <div class="actions"><button class="btn primary" type="submit">Log call</button></div>
+  </form>
+  <div class="tpl">
+    <h3>Message templates</h3>
+    <select id="tpl"></select>
+    <textarea id="tplText" rows="9" readonly></textarea>
+    <button class="btn" id="copyTpl" type="button">Copy message</button>
+  </div>
+  <div class="history">
+    <h3>Call history</h3>
+    <ul id="history"></ul>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
